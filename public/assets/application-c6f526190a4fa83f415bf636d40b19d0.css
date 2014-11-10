@@ -1,0 +1,303 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Wire+One|Oswald:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+@import url(http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800|Lobster);
+
+/*font-family: 'Lobster', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+
+
+
+.navbar-brand a {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 800;
+	color: purple;
+}
+
+.navbar-inverse {
+	color: purple;
+}
+
+.navbar-static-top {
+	color: purple;
+}
+
+.nav {
+	color: purple;
+}
+
+.nav {
+	color: purple;
+}
+
+.navbar-nav {
+	color: purple;
+}
+
+.navbar-right {
+	color: purple;
+}
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+}  
+
+p {
+	color: black;
+}
+
+h2 {
+	color: black;
+}
+
+a {
+  font-weight: bold;
+ 	color: #284f8f
+ }
+
+label {
+	color: black;
+}
+
+
+
+#login_panel {
+  text-align: center;
+	margin-top: 150px;
+	margin-bottom: 300px;
+}
+
+#login_panel h1 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	margin-bottom: 10px;
+	color: #ea0667;
+}
+
+#signup_panel {
+  text-align: center;
+  margin-top: 150px;
+	margin-bottom: 300px;
+}
+
+#signup_panel h1 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	margin-bottom: 10px;
+	color: #ea0667;
+}
+
+#newHouse_panel {
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 300px;
+}
+
+#newHouse_panel h2 {
+	font-family: 'Dosis', sans-serif;
+	color: #106490;
+	font-weight: 700;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#myHouses_panel {
+	text-align: left;
+	margin-top: 125px;
+	margin-bottom: 250px;
+}
+
+#myHouses_panel h2 {
+	font-family: 'Dosis', sans-serif;
+	color: #106490;
+	font-weight: 700;
+	padding-top: 0px;
+	text-align: center;
+}
+
+#newClient_panel {
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 250px;
+}
+
+#newClient_panel h2 {
+	font-family: 'Dosis', sans-serif;
+	color: #106490;
+	font-weight: 700;
+	padding-top: 0px;
+}
+
+#newClient_panel h4 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #ea0667;
+}
+
+#myClients_panel {
+	text-align: center;
+	margin-top: 125px;
+	margin-bottom: 250px;
+}
+
+#myClients_panel h2 {
+	font-family: 'Dosis', sans-serif;
+	color: #106490;
+	font-weight: 700;
+	padding-top: 0px;
+	text-align: center;
+}
+
+#showClient_panel {
+	text-align: center;
+	margin-top: 225px;
+	margin-bottom: 300px;
+}
+
+#showClient_panel h1 {
+	font-family: 'Dosis', sans-serif;
+	color: #106490;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#showClient_panel h3 {
+	font-family: 'Dosis', sans-serif;
+	color: #ea0667;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+/*input {
+	border: none !important;
+	background: rgba(253, 253, 253, 0.5)!important;
+}
+
+.panel-transparent {
+	border-radius: 10px;
+  background: none;
+}
+
+
+.panel-transparent .panel-body{
+	border-radius: 10px;
+	background: rgba(225, 236, 249, 0.9)!important;
+}*/
+
+.cover {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100% 100%;
+	color: rgb(255, 255, 255);
+  background: url("/assets/img_05.jpg") no-repeat scroll 0px 100% / cover transparent;
+}
+.cover1 {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100% 100%;
+	color: rgb(255, 255, 255);
+  background: url("/assets/img_0696.jpg") no-repeat scroll 0px 100% / cover transparent;
+}
+
+.cover2 {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: rgb(255, 255, 255);
+  background: url("/assets/img_04.jpg") no-repeat scroll 0px 100% / cover transparent;
+}
+
+.cover3 {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: rgb(255, 255, 255);
+  background: url("/assets/img_0697.jpg") no-repeat scroll 0px 100% / cover transparent;
+}
+
+.cover4 {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: rgb(255, 255, 255);
+  background: url("/assets/img_0700.jpg") no-repeat scroll 0px 100% / cover transparent;
+}
+
+.cover5 {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: rgb(255, 255, 255);
+  background: url("/assets/img_01.jpg") no-repeat scroll 0px 100% / cover transparent;
+}
+
+.cover6 {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: rgb(255, 255, 255);
+  background: url("/assets/img_02.jpg") no-repeat scroll 0px 100% / cover transparent;
+}
+
+
+.cover2 h5 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	color: #ea0667;
+}
+
+.cover3 h5 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	color: #ea0667;
+}
+
+.cover5 h5 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	color: #ea0667;
+}
+
+.cover6 h4 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 700;
+	margin-bottom: 12px;
+	color: #ea0667;
+}
+
+
+
+
+
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
