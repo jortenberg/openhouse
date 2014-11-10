@@ -1,0 +1,51 @@
+
+<!-- showing all openhouses by user and creating them. -->
+
+<div class="cover5">
+  <div class="clearfix"></div>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
+        <div id="myClients_panel" class="panel panel-primary panel-transparent">
+          <div class="panel-body">
+            <% if the_clients == [] %>
+              <div>
+                <h2 style="margin-bottom:40px;margin-top:30px;">You have no attendees because you have not had any open houses.</h2> 
+                <h2 style="margin-bottom:30px;">Get on that!</h2>
+              </div>
+            <% else %>
+              <div>
+                <h2>My Attendees</h2>
+              </div>
+
+              <table class="table">
+                <thead>   
+                  <tr>
+                    <td><h5>NAME</h5></td>
+                    <td><h5>OPEN HOUSE ATTENDED</h5></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <% the_clients.each do |client|%>
+                    <tr>
+                      <td><a href="/clients/<%= client.id %>"><%= client.fname %> <%= client.lname %></a></td>
+                      <td><p><% visited = House.find(client.house_id) %><%= visited["st_address"] %>, <%= visited["city"] %> <%= visited["state"] %></p></td>
+                    </tr>
+                  <% end %>
+                </tbody>
+              </table>
+            <% end %>
+
+          </div>
+        </div>
+      </div>
+    </div>
+            
+  </div>
+
+</div>
+
+
+
+
