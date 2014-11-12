@@ -14,30 +14,6 @@ font-family: 'Open Sans', sans-serif;*/
 	color: purple;
 }
 
-.navbar-inverse {
-	color: purple;
-}
-
-.navbar-static-top {
-	color: purple;
-}
-
-.nav {
-	color: purple;
-}
-
-.nav {
-	color: purple;
-}
-
-.navbar-nav {
-	color: purple;
-}
-
-.navbar-right {
-	color: purple;
-}
-
 
 
 body {
@@ -198,7 +174,7 @@ label {
 	-o-background-size: cover;
 	background-size: 100% 100%;
 	color: rgb(255, 255, 255);
-  background: url("/assets/img_05.jpg") no-repeat scroll 0px 100% / cover transparent;
+  background: url(/assets/img_05.jpg) no-repeat scroll 0px 100% / cover transparent;
 }
 .cover1 {
 	-webkit-background-size: cover;
@@ -206,7 +182,7 @@ label {
 	-o-background-size: cover;
 	background-size: 100% 100%;
 	color: rgb(255, 255, 255);
-  background: url("/assets/img_0696.jpg") no-repeat scroll 0px 100% / cover transparent;
+  background: url(/assets/img_0696.jpg) no-repeat scroll 0px 100% / cover transparent;
 }
 
 .cover2 {
@@ -215,7 +191,7 @@ label {
 	-o-background-size: cover;
 	background-size: cover;
 	color: rgb(255, 255, 255);
-  background: url("/assets/img_04.jpg") no-repeat scroll 0px 100% / cover transparent;
+  background: url(/assets/img_04.jpg) no-repeat scroll 0px 100% / cover transparent;
 }
 
 .cover3 {
@@ -224,7 +200,7 @@ label {
 	-o-background-size: cover;
 	background-size: cover;
 	color: rgb(255, 255, 255);
-  background: url("/assets/img_0697.jpg") no-repeat scroll 0px 100% / cover transparent;
+  background: url(/assets/img_0697.jpg) no-repeat scroll 0px 100% / cover transparent;
 }
 
 .cover4 {
@@ -233,7 +209,7 @@ label {
 	-o-background-size: cover;
 	background-size: cover;
 	color: rgb(255, 255, 255);
-  background: url("/assets/img_0700.jpg") no-repeat scroll 0px 100% / cover transparent;
+  background: url(/assets/img_0700.jpg) no-repeat scroll 0px 100% / cover transparent;
 }
 
 .cover5 {
@@ -242,7 +218,7 @@ label {
 	-o-background-size: cover;
 	background-size: cover;
 	color: rgb(255, 255, 255);
-  background: url("/assets/img_01.jpg") no-repeat scroll 0px 100% / cover transparent;
+  background: url(/assets/img_01.jpg) no-repeat scroll 0px 100% / cover transparent;
 }
 
 .cover6 {
@@ -251,7 +227,7 @@ label {
 	-o-background-size: cover;
 	background-size: cover;
 	color: rgb(255, 255, 255);
-  background: url("/assets/img_02.jpg") no-repeat scroll 0px 100% / cover transparent;
+  background: url(/assets/img_02.jpg) no-repeat scroll 0px 100% / cover transparent;
 }
 
 
@@ -284,4 +260,20 @@ label {
 
 
 
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
 
